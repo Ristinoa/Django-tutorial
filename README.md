@@ -10,3 +10,5 @@ Practice repository for Externship 2022
 
 Second round of changes to a github repository using VSCODE instead of VIM.
 As I mentioned previously, I'd like to avoid using the command line via terminal if at all possible.
+
+This edit right here is to practice using the pull feature in VSCode.
