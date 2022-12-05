@@ -8,5 +8,5 @@ Practice repository for Externship 2022
 3. Profit
 4. Go to Montreal in two weeks with my family
 
-# *This is a verification that I have properly integrated github with VSCode*
-## If at all possible, I'd love to avoid using the command line and vim for my upcoming projects
+Second round of changes to a github repository using VSCODE instead of VIM.
+As I mentioned previously, I'd like to avoid using the command line via terminal if at all possible.
