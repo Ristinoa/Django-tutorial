@@ -15,10 +15,12 @@ This edit right here is to practice using the pull feature in VSCode.
 
 Startup commands for this project:
 
-source .venv/bin/activate (Activate virtual environment session)
+c (Activate virtual environment session)
 
 Then, because for some reason the virtual environment doesn't recognize it was started in a folder's console:
 
 python /Users/ajristino/Desktop/hello-world/mysite/manage.py runserver
 
 This starts the django development server.
+
+Managed to finally, after three tries, get indexes part to run. Gonna take a breather here for the night and try to get some work done tomorrow morning.
