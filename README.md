@@ -15,7 +15,9 @@ This edit right here is to practice using the pull feature in VSCode.
 
 Startup commands for this project:
 
-c (Activate virtual environment session)
+source .venv/bin/activate
+
+(Activate virtual environment session)
 
 Then, because for some reason the virtual environment doesn't recognize it was started in a folder's console:
 

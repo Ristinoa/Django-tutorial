@@ -1,0 +1,36 @@
+## Notes document for writing down interesting elements from the Django tutorial
+
+The first issue of note was a terminal issue where upon opening, the terminal would immediately shut.
+This can be rectified by restarting the computer and launching VSCode again.
+
+The three-step process for changing models in Django:
+- Change the models in model.py
+- Run python manage.py makemigrations (Creates migrations for changes)
+- Run python manage.py migrate (to apply those changes to the database)
+
+The way the migrate command works was described as, more or less, a forced sync-up of changes made
+
+There's also a Django API that runs on a python shell. It's pretty neat!
+- It does require elements to be imported in order to write commands, I believe, but with a notation guide,
+it'll probably be fine
+
+Django's URL construction is also pretty cool too
+- To prevent the construction of insanely messy and needlessly long URLs, Django uses URLconfs, 
+- Urlconfs match URL patterns to views (pages)
+- Refer to URL dispatcher for more info
+
+Django's error encoding:
+- The get_object_or_404() function takes a Django model as its first argument and an arbitrary 
+  number of keyword arguments, which it passes to the get() function of the model’s manager.
+  It raises Http404 if the object doesn’t exist.
+
+Writing data altering forms (server-side)
+- when writing the minimal form, when entering your method, use method="post"
+- ALSO, {% csrf_token %} template tag for URLs
+
+Cool tips from the folks over at Django about dealing with POST data:
+- you should always return an HttpResponseRedirect after successfully dealing with POST data. 
+ This tip isn’t specific to Django; it’s good web development practice in general.
+
+
+
