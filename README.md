@@ -1,14 +1,13 @@
-# hello-world
-Practice repository for Externship 2022
+# Django-tutorial
+Practice repository for Externship 2022 — revised 2024
 
-# **Repository practice—here is the edit section for the github tutorial**
+## **Info regarding this project:**
 
-1. Complete the externship
-2. Be a productive member of the engineering team
+This is a Django tutorial I (A.J. Ristino) completed during November and December, 2022. 
 
-**NOTE:** Django project use guidance below
+The files stored in this repository are essentially just the baseline materials for an admin panel application built to the specifics of a tutorial given to me by an instructor.
 
-Startup commands for this project:
+### Startup commands for this project:
 
 source .venv/bin/activate
 
